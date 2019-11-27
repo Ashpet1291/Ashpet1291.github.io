@@ -13,7 +13,7 @@ ul.navigation {
   
   li a {
     display: inline-block;
-    color: white;
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,7 +37,7 @@ a.active {
 /*list of foods you can make*/
 ul.foodlist {
     display: inline-block;
-    color: white;
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -107,7 +107,7 @@ img.ham {
 /*header for food list*/
 h2.food_list {
     display: inline-block;
-    color: silver;
+    color: red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
