@@ -107,7 +107,7 @@ img.ham {
 /*header for food list*/
 h2.food_list {
     display: inline-block;
-    color: white;
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -123,7 +123,7 @@ p.fudge_sourcelink {
     bottom: 170px;
     right: 35px; 
     font-size: 50%;
-    color: white;  
+    color: silver;  
 }
 
 p.ham_sourcelink {
@@ -131,7 +131,7 @@ p.ham_sourcelink {
     bottom: 3px;
     right: 610px; 
     font-size: 40%;
-    color: white;  
+    color: silver;  
 }
 
 p.cookie_sourcelink {
@@ -139,7 +139,7 @@ p.cookie_sourcelink {
     bottom: 180px;
     left: 65px; 
     font-size: 40%;
-    color: white; 
+    color: silver; 
 }
 
 p.background2_sourcelink {
@@ -147,5 +147,5 @@ p.background2_sourcelink {
     bottom: 1px;
     left: 1px; 
     font-size: 40%;
-    color: white;
+    color: silver;
 }
