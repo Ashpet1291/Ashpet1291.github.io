@@ -1,0 +1,135 @@
+/* Navigation menu at the top of the page*/
+ul.navigation {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a{
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.a:hover {
+  background-color: #111;
+}
+
+a.active {
+  background-color: rgb(194, 8, 8);
+}
+
+h1.title_header {
+  text-align: center;
+  font-size: 60px;
+  color: silver;
+}
+
+/*this is for the carousel*/
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.carousel_fade {
+  display: none; }
+
+img {
+  vertical-align: middle;
+}
+
+/*carousel_images*/
+.carousel_images {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Caption text in carousel*/
+.caption {
+  color: white;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets for carousel slides*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(194, 8, 8);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+span.active, .dot:hover {
+  background-color:green;
+}
+
+/*Fading animation in carousel*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*These are the links to the sites I got my pictures for carousel from*/
+p.back1_sourcelink {
+  position: absolute;
+  bottom: -190px;
+  right: 15px; 
+  font-size: 50%;
+  color: black; 
+}
+
+p.back2_sourcelink {
+  position: absolute;
+  bottom: -183px;
+  right: 15px; 
+  font-size: 50%;
+  color:black; 
+}
+
+p.back3_sourcelink {
+  position: absolute;
+  bottom: -176px;
+  right: 15px; 
+  font-size: 50%;
+  color: black; 
+}
+
+p.back4_sourcelink {
+  position: absolute;
+  bottom: -169px;
+  right: 15px; 
+  font-size: 50%;
+  color: black; 
+}
+
+p.back5_sourcelink {
+  position: absolute;
+  bottom: -162px;
+  right: 15px; 
+  font-size: 50%;
+  color: black; 
+}

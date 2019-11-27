@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="Fun For Holidays.css">
+
+</head>
+<body>
+
+    <nav>
+        <ul class="navigation">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="Food.html">Food</a></li>
+          <li><a href="Things To Do.html">Things To Do</a></li>
+          <li><a href="Arts and Crafts.html">Arts and Crafts</a></li>
+        </ul>
+    </nav>
+
+    
+  <h1 class="title_header">Fun for Christmas</h1>
+    
+  <div class="carousel_images">
+    
+    <div class="carousel_fade">
+      <img src="back.JPG" style="width:100%">
+      <div class="caption">Merry Christmas</div>
+    </div>
+    
+    <div class="carousel_fade">
+      <img src="food slide.JPG" style="width:100%">
+      <div class="caption">Yum, Eat up!</div>
+    </div>
+
+    
+    <div class="carousel_fade">
+      <img src="trees.JPG" style="width:100%">
+      <div class="caption">Pick out a tree.</div>
+    </div>
+
+
+    <div class="carousel_fade">
+      <img src="xmas lights.JPG" style="width:100%">
+      <div class="caption">Take a walk through some lights</div>
+    </div>
+
+
+    <div class="carousel_fade">
+      <img src="gingerbread.JPG" style="width:100%">
+      <div class="caption">Try to Build a gingerbread house</div>
+    </div>
+
+    
+    </div>
+    <br>
+
+    <p class="back1_sourcelink">Image 1 from-"https://www.katebackdrop.com/products/kate-winter-christmas-trees-fireplace-stockings-christmas-gifts-for-pictures?variant=12283476246624"</p>
+    <p class="back2_sourcelink">Image 2 from-"https://www.thesun.co.uk/news/2319463/the-price-of-your-christmas-dinner-has-rocketed-by-14-per-cent-compared-to-2015/"</p>
+    <p class="back3_sourcelink">Image 3 from-"https://www.townandcountrymag.com/leisure/news/a4492/christmas-tree-delivery-and-decorating-service/"</p>
+    <p class="back4_sourcelink">Image 4 from-"https://thatoregonlife.com/2015/12/13-best-places-in-oregon-to-see-christmas-lights/"</p>
+    <p class="back5_sourcelink">Image 5 from-"https://www.mccormick.com/recipes/other/gingerbread-house"</p>
+
+    
+    <div style='text-align: center;'>
+      <span class="dot" onclick='currentSlide(1)'></span>
+      <span class="dot" onclick='currentSlide(2)'></span>
+      <span class="dot" onclick='currentSlide(3)'></span>
+      <span class="dot" onclick='currentSlide(4)'></span>
+      <span class="dot" onclick='currentSlide(5)'></span>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      clearInterval(myTimer);
+  if (n < 0){
+    showSlides(slideIndex -= 1);
+  } else {
+   showSlides(slideIndex += 1); 
+  }
+  if (n == -1){
+    myTimer = setInterval(function(){plusSlides(n + 2)}, 4000);
+  } else {
+    myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+  }
+    }
+
+    function currentSlide(n){
+  clearInterval(myTimer);
+  myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+  showSlides(slideIndex = n);
+}
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("carousel_fade");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace("active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active"; 
+    }
+
+    window.addEventListener("load",function() {
+    showSlides(slideIndex);
+    myTimer = setInterval(function(){plusSlides(1)}, 4000);
+})
+    </script>
+    
+    </body>
+    </html> 

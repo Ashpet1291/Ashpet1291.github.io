@@ -1,0 +1,132 @@
+/* Navigation menu at the top of the page*/
+ul.navigation {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li a{
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.a:hover {
+    background-color: #111;
+  }
+  
+a.active {
+    background-color: rgb(194, 8, 8);
+  }
+
+  /*title of page*/
+  h1.title_header {
+    text-align: center;
+    font-size: 60px;
+    color: silver;
+  }
+
+/*list of projects*/
+ul.artncraft {
+    display: inline-block;
+    color: rgb(236, 180, 38);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    position: absolute;
+    top: 260px;
+    left: 220px; 
+}
+
+/*places tree pic*/
+div.diy_treediv {
+    position: absolute;
+    bottom: 50px;
+    left: 350px;
+}
+
+/*sets size of tree image*/
+img.DIY_tree {
+  width: 200px;
+  height: 200px
+}
+
+/*places DIY video*/
+p.DIY_vid {
+    position: absolute;
+    bottom: 180px;
+    right: 252px;
+    font-size: 50%;
+    color: white; 
+}
+
+/*used to display video*/
+iframe {
+    position: absolute;
+    bottom: 200px;
+    right: 200px; 
+}
+
+/*header for list of projects you can make yourself*/
+h2.art {
+    display: inline-block;
+    color: rgb(204, 19, 19);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: 160px;
+    left: 160px; 
+}
+
+/*places the link to the site I got the tree image from*/
+p.DIY_tree_sourcelink {
+    position: absolute;
+    bottom: 30px;
+    left: 265px; 
+    font-size: 50%;
+    color: white;  
+}
+
+/*places pic for link to pinterest*/
+a.pinterest_logo {
+    position: absolute;
+    bottom: 50px;
+    right: 190px;  
+}
+
+/*tells you to click the icon to go to pinterest*/
+p.pinterest_link {
+    position: absolute;
+    bottom: 15px;
+    right: 40px; 
+    color:rgb(128, 15, 15);
+    font-size: 90%; 
+}
+
+/*places link to site where I got the pinterest logo from*/
+p.pin_sourcelink {
+    position: absolute;
+    bottom: 5px;
+    right: 80px; 
+    font-size: 50%  
+}
+
+/*places link to site where I got the background pic from*/
+p.background4_sourcelink {
+    position: absolute;
+    bottom: 1px;
+    left: 1px; 
+    font-size: 40%;
+    color: white;
+}

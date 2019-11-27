@@ -1,0 +1,117 @@
+/* Navigation menu at the top of the page*/
+ul.navigation {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li a{
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.a:hover {
+    background-color: #111;
+  }
+  
+a.active {
+    background-color: rgb(194, 8, 8);
+  }
+
+  /*title of page*/
+  h1.title_header {
+    text-align: center;
+    font-size: 60px;
+    color: silver;
+  }
+
+  /*scrollbar image*/
+  div.scroll_image {
+    height:250px;
+    width:250px;
+    overflow:auto;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+  }
+    
+    /*link to where I got the image from inside the scroll box*/
+    p.scroll_sourcelink {
+        position: absolute;
+        bottom: 185px;
+        right: 185px; 
+        font-size: 35%;
+        color: white;  
+    }
+    
+    /*header for list of things you can do*/
+    h2.things {
+        display: inline-block;
+        color:red;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 150%;
+        position: absolute;
+        top: 225px;
+        left: 140px; 
+    }
+
+    /*header for above my scrollbar image*/
+    h3.light_things {
+        display: inline-block;
+        color: red;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 150%;
+        position: absolute;
+        top: 225px;
+        right: 40px; 
+    }
+    
+    /*sets size of lights image*/
+    img.lights_todo {
+        width: 25px;
+        height: 25px
+    }
+    
+    /*list of things you can do*/
+    ul.To_DO {
+        display: inline-block;
+        color:green;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 150%;
+        position: absolute;
+        top: 280px;
+        left: 220px; 
+    }
+
+    /*form to submit your favorite holiday*/
+    form {
+        position: absolute;
+        bottom: 150px;
+        left: 200px; 
+        color: white;
+    }
+
+    /*link to the page I got my image from*/
+    p.background3_sourcelink {
+        position: absolute;
+        bottom: 1px;
+        left: 1px; 
+        font-size: 40%;
+        color: white;
+    }
+    
