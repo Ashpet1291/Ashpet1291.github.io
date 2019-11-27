@@ -13,7 +13,7 @@ ul.navigation {
   
   li a {
     display: inline-block;
-    color: white;
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -50,7 +50,7 @@ a.active {
         bottom: 185px;
         right: 185px; 
         font-size: 35%;
-        color: white;  
+        color: red;  
     }
     
     /*header for list of things you can do*/
@@ -103,7 +103,7 @@ a.active {
         position: absolute;
         bottom: 150px;
         left: 200px; 
-        color: white;
+        color: red;
     }
 
     /*link to the page I got my image from*/
@@ -112,6 +112,6 @@ a.active {
         bottom: 1px;
         left: 1px; 
         font-size: 40%;
-        color: white;
+        color: silver;
     }
     
