@@ -80,7 +80,7 @@ iframe {
 h2.art {
     display: inline-block;
     color: rgb(204, 19, 19);
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 40px;
